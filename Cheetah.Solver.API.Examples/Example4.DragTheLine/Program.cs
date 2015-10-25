@@ -47,7 +47,8 @@ namespace CloudInvent.Cheetah.Examples.DragTheLine
             line1.FillData(resultLine1);
             line2.FillData(resultLine2);
 
-            // 7. Just to check, we don't need to do it all the time, because if parametric.Evaluate returned true then the problem is solved correctly
+            // 7. Just to check, we don't need to do it all the time, because if parametric.
+            // Evaluate returned true then the problem is solved correctly
             if (!IsPointOnLine(line1.End, line2))
                 throw new Exception("Something goes wrong");
 
@@ -67,7 +68,8 @@ namespace CloudInvent.Cheetah.Examples.DragTheLine
                 
         } // Main(...)
 
-        static ICollection<CheetahCurve> EvaluationOnTheFirstApplicationOfConstraint(ICheetahSolver solver, CheetahDataSet dataSet)
+        static ICollection<CheetahCurve> EvaluationOnTheFirstApplicationOfConstraint(ICheetahSolver solver, 
+                                                                                     CheetahDataSet dataSet)
         {
             // 1. Creating parametric object and setting tolerance (by default 1E-12)
             var parametric = new CheetahParametricBasic(() => solver, false, true, true);
@@ -96,7 +98,8 @@ namespace CloudInvent.Cheetah.Examples.DragTheLine
             
         } // EvaluationOnTheFirstApplicationOfConstraint(...)
 
-        static ICollection<CheetahCurve> EvaluationOnDragginTheLine(ICheetahSolver solver, CheetahDataSet dataSet, CheetahLine2D draggingLine, CheetahPoint2D draggingPoint)
+        static ICollection<CheetahCurve> EvaluationOnDragginTheLine(ICheetahSolver solver, CheetahDataSet dataSet, 
+                                                                    CheetahLine2D draggingLine, CheetahPoint2D draggingPoint)
         {
             // 1. Creating parametric object and setting tolerance (by default 1E-12)
             var parametric = new CheetahParametricBasic(() => solver, false, true, true);
