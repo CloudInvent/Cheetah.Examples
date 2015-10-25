@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CheetahDataSet xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/CloudInvent.Cheetah.Data">
+  <Constraints xmlns:d2p1="http://schemas.datacontract.org/2004/07/CloudInvent.Cheetah.Data.Constraints">
+    <d2p1:CheetahConstraintBase z:Id="i1" xmlns:d3p1="http://schemas.datacontract.org/2004/07/CloudInvent.Cheetah.Data.Constraints.Coincidence" i:type="d3p1:CheetahConstraintSamePoint" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <Id>37</Id>
+      <d2p1:Priority>1</d2p1:Priority>
+      <d2p1:Pattern xmlns:d4p1="http://schemas.datacontract.org/2004/07/CloudInvent.Cheetah.Data.Geometry" z:Id="i2" i:type="d4p1:CheetahLine2D">
+        <Id>4</Id>
+        <d4p1:IsBlockCurve>false</d4p1:IsBlockCurve>
+        <d4p1:IsHidden>false</d4p1:IsHidden>
+        <d4p1:IsPolyline>false</d4p1:IsPolyline>
+        <d4p1:Reference i:nil="true" />
+        <d4p1:WorkPlane z:Id="i3">
+          <Id>5</Id>
+          <d4p1:Origin z:Id="i4">
+            <Id>6</Id>
+            <d4p1:X>0</d4p1:X>
+            <d4p1:Y>0</d4p1:Y>
+            <d4p1:Z>0</d4p1:Z>
+          </d4p1:Origin>
+          <d4p1:XAxis z:Id="i5">
+            <Id>7</Id>
+            <d4p1:X>1</d4p1:X>
+            <d4p1:Y>0</d4p1:Y>
+            <d4p1:Z>0</d4p1:Z>
+          </d4p1:XAxis>
+          <d4p1:YAxis z:Id="i6">
+            <Id>8</Id>
+            <d4p1:X>0</d4p1:X>
+            <d4p1:Y>1</d4p1:Y>
+            <d4p1:Z>0</d4p1:Z>
+          </d4p1:YAxis>
+        </d4p1:WorkPlane>
+        <d4p1:Direction z:Id="i7">
+          <Id>44</Id>
+          <d4p1:X>10</d4p1:X>
+          <d4p1:Y>1</d4p1:Y>
+        </d4p1:Direction>
+        <d4p1:Start z:Id="i8">
+          <Id>1</Id>
+          <d4p1:X>0</d4p1:X>
+          <d4p1:Y>0</d4p1:Y>
+        </d4p1:Start>
+        <d4p1:End z:Id="i9">
+          <Id>2</Id>
+          <d4p1:X>10</d4p1:X>
+          <d4p1:Y>1</d4p1:Y>
+        </d4p1:End>
+        <d4p1:Middle z:Id="i10">
+          <Id>9</Id>
+          <d4p1:X>5</d4p1:X>
+          <d4p1:Y>0.5</d4p1:Y>
+        </d4p1:Middle>
+      </d2p1:Pattern>
+      <d2p1:Replica xmlns:d4p1="http://schemas.datacontract.org/2004/07/CloudInvent.Cheetah.Data.Geometry" z:Id="i11" i:type="d4p1:CheetahLine2D">
+        <Id>13</Id>
+        <d4p1:IsBlockCurve>false</d4p1:IsBlockCurve>
+        <d4p1:IsHidden>false</d4p1:IsHidden>
+        <d4p1:IsPolyline>false</d4p1:IsPolyline>
+        <d4p1:Reference i:nil="true" />
+        <d4p1:WorkPlane z:Id="i12">
+          <Id>14</Id>
+          <d4p1:Origin z:Id="i13">
+            <Id>15</Id>
+            <d4p1:X>0</d4p1:X>
+            <d4p1:Y>0</d4p1:Y>
+            <d4p1:Z>0</d4p1:Z>
+          </d4p1:Origin>
+          <d4p1:XAxis z:Id="i14">
+            <Id>16</Id>
+            <d4p1:X>1</d4p1:X>
+            <d4p1:Y>0</d4p1:Y>
+            <d4p1:Z>0</d4p1:Z>
+          </d4p1:XAxis>
+          <d4p1:YAxis z:Id="i15">
+            <Id>17</Id>
+            <d4p1:X>0</d4p1:X>
+            <d4p1:Y>1</d4p1:Y>
+            <d4p1:Z>0</d4p1:Z>
+          </d4p1:YAxis>
+        </d4p1:WorkPlane>
+        <d4p1:Direction z:Id="i16">
+          <Id>45</Id>
+          <d4p1:X>0</d4p1:X>
+          <d4p1:Y>11</d4p1:Y>
+        </d4p1:Direction>
+        <d4p1:Start z:Id="i17">
+          <Id>10</Id>
+          <d4p1:X>10</d4p1:X>
+          <d4p1:Y>0</d4p1:Y>
+        </d4p1:Start>
+        <d4p1:End z:Id="i18">
+          <Id>11</Id>
+          <d4p1:X>10</d4p1:X>
+          <d4p1:Y>11</d4p1:Y>
+        </d4p1:End>
+        <d4p1:Middle z:Id="i19">
+          <Id>18</Id>
+          <d4p1:X>10</d4p1:X>
+          <d4p1:Y>5.5</d4p1:Y>
+        </d4p1:Middle>
+      </d2p1:Replica>
+      <d2p1:PatternPointForSerialization>3</d2p1:PatternPointForSerialization>
+      <d2p1:ReplicaPointForSerialization>1</d2p1:ReplicaPointForSerialization>
+    </d2p1:CheetahConstraintBase>
+    <d2p1:CheetahConstraintBase z:Id="i20" xmlns:d3p1="http://schemas.datacontract.org/2004/07/CloudInvent.Cheetah.Data.Constraints.Coincidence" i:type="d3p1:CheetahConstraintSamePoint" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <Id>38</Id>
+      <d2p1:Priority>1</d2p1:Priority>
+      <d2p1:Pattern xmlns:d4p1="http://schemas.datacontract.org/2004/07/CloudInvent.Cheetah.Data.Geometry" z:Ref="i11" />
+      <d2p1:Replica xmlns:d4p1="http://schemas.datacontract.org/2004/07/CloudInvent.Cheetah.Data.Geometry" z:Id="i21" i:type="d4p1:CheetahLine2D">
+        <Id>22</Id>
+        <d4p1:IsBlockCurve>false</d4p1:IsBlockCurve>
+        <d4p1:IsHidden>false</d4p1:IsHidden>
+        <d4p1:IsPolyline>false</d4p1:IsPolyline>
+        <d4p1:Reference i:nil="true" />
+        <d4p1:WorkPlane z:Id="i22">
+          <Id>23</Id>
+          <d4p1:Origin z:Id="i23">
+            <Id>24</Id>
+            <d4p1:X>0</d4p1:X>
+            <d4p1:Y>0</d4p1:Y>
+            <d4p1:Z>0</d4p1:Z>
+          </d4p1:Origin>
+          <d4p1:XAxis z:Id="i24">
+            <Id>25</Id>
+            <d4p1:X>1</d4p1:X>
+            <d4p1:Y>0</d4p1:Y>
+            <d4p1:Z>0</d4p1:Z>
+          </d4p1:XAxis>
+          <d4p1:YAxis z:Id="i25">
+            <Id>26</Id>
+            <d4p1:X>0</d4p1:X>
+            <d4p1:Y>1</d4p1:Y>
+            <d4p1:Z>0</d4p1:Z>
+          </d4p1:YAxis>
+        </d4p1:WorkPlane>
+        <d4p1:Direction z:Id="i26">
+          <Id>46</Id>
+          <d4p1:X>-9</d4p1:X>
+          <d4p1:Y>0</d4p1:Y>
+        </d4p1:Direction>
+        <d4p1:Start z:Id="i27">
+          <Id>19</Id>
+          <d4p1:X>10</d4p1:X>
+          <d4p1:Y>10</d4p1:Y>
+        </d4p1:Start>
+        <d4p1:End z:Id="i28">
+          <Id>20</Id>
+          <d4p1:X>1</d4p1:X>
+          <d4p1:Y>10</d4p1:Y>
+        </d4p1:End>
+        <d4p1:Middle z:Id="i29">
+          <Id>27</Id>
+          <d4p1:X>5.5</d4p1:X>
+          <d4p1:Y>10</d4p1:Y>
+        </d4p1:Middle>
+      </d2p1:Replica>
+      <d2p1:PatternPointForSerialization>3</d2p1:PatternPointForSerialization>
+      <d2p1:ReplicaPointForSerialization>1</d2p1:ReplicaPointForSerialization>
+    </d2p1:CheetahConstraintBase>
+    <d2p1:CheetahConstraintBase z:Id="i30" xmlns:d3p1="http://schemas.datacontract.org/2004/07/CloudInvent.Cheetah.Data.Constraints.Coincidence" i:type="d3p1:CheetahConstraintSamePoint" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <Id>39</Id>
+      <d2p1:Priority>1</d2p1:Priority>
+      <d2p1:Pattern xmlns:d4p1="http://schemas.datacontract.org/2004/07/CloudInvent.Cheetah.Data.Geometry" z:Ref="i21" />
+      <d2p1:Replica xmlns:d4p1="http://schemas.datacontract.org/2004/07/CloudInvent.Cheetah.Data.Geometry" z:Id="i31" i:type="d4p1:CheetahLine2D">
+        <Id>31</Id>
+        <d4p1:IsBlockCurve>false</d4p1:IsBlockCurve>
+        <d4p1:IsHidden>false</d4p1:IsHidden>
+        <d4p1:IsPolyline>false</d4p1:IsPolyline>
+        <d4p1:Reference i:nil="true" />
+        <d4p1:WorkPlane z:Id="i32">
+          <Id>32</Id>
+          <d4p1:Origin z:Id="i33">
+            <Id>33</Id>
+            <d4p1:X>0</d4p1:X>
+            <d4p1:Y>0</d4p1:Y>
+            <d4p1:Z>0</d4p1:Z>
+          </d4p1:Origin>
+          <d4p1:XAxis z:Id="i34">
+            <Id>34</Id>
+            <d4p1:X>1</d4p1:X>
+            <d4p1:Y>0</d4p1:Y>
+            <d4p1:Z>0</d4p1:Z>
+          </d4p1:XAxis>
+          <d4p1:YAxis z:Id="i35">
+            <Id>35</Id>
+            <d4p1:X>0</d4p1:X>
+            <d4p1:Y>1</d4p1:Y>
+            <d4p1:Z>0</d4p1:Z>
+          </d4p1:YAxis>
+        </d4p1:WorkPlane>
+        <d4p1:Direction z:Id="i36">
+          <Id>47</Id>
+          <d4p1:X>1</d4p1:X>
+          <d4p1:Y>-9</d4p1:Y>
+        </d4p1:Direction>
+        <d4p1:Start z:Id="i37">
+          <Id>28</Id>
+          <d4p1:X>0</d4p1:X>
+          <d4p1:Y>10</d4p1:Y>
+        </d4p1:Start>
+        <d4p1:End z:Id="i38">
+          <Id>29</Id>
+          <d4p1:X>1</d4p1:X>
+          <d4p1:Y>1</d4p1:Y>
+        </d4p1:End>
+        <d4p1:Middle z:Id="i39">
+          <Id>36</Id>
+          <d4p1:X>0.5</d4p1:X>
+          <d4p1:Y>5.5</d4p1:Y>
+        </d4p1:Middle>
+      </d2p1:Replica>
+      <d2p1:PatternPointForSerialization>3</d2p1:PatternPointForSerialization>
+      <d2p1:ReplicaPointForSerialization>1</d2p1:ReplicaPointForSerialization>
+    </d2p1:CheetahConstraintBase>
+    <d2p1:CheetahConstraintBase z:Id="i40" xmlns:d3p1="http://schemas.datacontract.org/2004/07/CloudInvent.Cheetah.Data.Constraints.Coincidence" i:type="d3p1:CheetahConstraintSamePoint" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <Id>40</Id>
+      <d2p1:Priority>1</d2p1:Priority>
+      <d2p1:Pattern xmlns:d4p1="http://schemas.datacontract.org/2004/07/CloudInvent.Cheetah.Data.Geometry" z:Ref="i31" />
+      <d2p1:Replica xmlns:d4p1="http://schemas.datacontract.org/2004/07/CloudInvent.Cheetah.Data.Geometry" z:Ref="i2" />
+      <d2p1:PatternPointForSerialization>3</d2p1:PatternPointForSerialization>
+      <d2p1:ReplicaPointForSerialization>1</d2p1:ReplicaPointForSerialization>
+    </d2p1:CheetahConstraintBase>
+    <d2p1:CheetahConstraintBase z:Id="i41" xmlns:d3p1="http://schemas.datacontract.org/2004/07/CloudInvent.Cheetah.Data.Constraints.Perpendicular" i:type="d3p1:CheetahConstraintPerpendicularLines" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <Id>41</Id>
+      <d2p1:Priority>1000</d2p1:Priority>
+      <d2p1:Pattern xmlns:d4p1="http://schemas.datacontract.org/2004/07/CloudInvent.Cheetah.Data.Geometry" z:Ref="i2" />
+      <d2p1:Replica xmlns:d4p1="http://schemas.datacontract.org/2004/07/CloudInvent.Cheetah.Data.Geometry" z:Ref="i11" />
+    </d2p1:CheetahConstraintBase>
+    <d2p1:CheetahConstraintBase z:Id="i42" xmlns:d3p1="http://schemas.datacontract.org/2004/07/CloudInvent.Cheetah.Data.Constraints.Perpendicular" i:type="d3p1:CheetahConstraintPerpendicularLines" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <Id>42</Id>
+      <d2p1:Priority>1000</d2p1:Priority>
+      <d2p1:Pattern xmlns:d4p1="http://schemas.datacontract.org/2004/07/CloudInvent.Cheetah.Data.Geometry" z:Ref="i11" />
+      <d2p1:Replica xmlns:d4p1="http://schemas.datacontract.org/2004/07/CloudInvent.Cheetah.Data.Geometry" z:Ref="i21" />
+    </d2p1:CheetahConstraintBase>
+    <d2p1:CheetahConstraintBase z:Id="i43" xmlns:d3p1="http://schemas.datacontract.org/2004/07/CloudInvent.Cheetah.Data.Constraints.Parallel" i:type="d3p1:CheetahConstraintParallelLines" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <Id>43</Id>
+      <d2p1:Priority>1000</d2p1:Priority>
+      <d2p1:Pattern xmlns:d4p1="http://schemas.datacontract.org/2004/07/CloudInvent.Cheetah.Data.Geometry" z:Ref="i11" />
+      <d2p1:Replica xmlns:d4p1="http://schemas.datacontract.org/2004/07/CloudInvent.Cheetah.Data.Geometry" z:Ref="i31" />
+    </d2p1:CheetahConstraintBase>
+  </Constraints>
+  <Geometry xmlns:d2p1="http://schemas.datacontract.org/2004/07/CloudInvent.Cheetah.Data.Geometry">
+    <d2p1:CheetahCurve z:Ref="i2" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:CheetahCurve z:Ref="i11" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:CheetahCurve z:Ref="i21" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:CheetahCurve z:Ref="i31" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+  </Geometry>
+</CheetahDataSet>
