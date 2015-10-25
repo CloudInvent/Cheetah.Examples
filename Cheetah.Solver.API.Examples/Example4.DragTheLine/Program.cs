@@ -1,3 +1,8 @@
+//----------------------------------------------------------------------------------------- 
+// Program4.cs                                      (C) Copyright 2015 by Cloud Invent ML 
+// 
+// Created:    24.10.2015                           Dmitry Ratner 
+//----------------------------------------------------------------------------------------- 
 
 namespace CloudInvent.Cheetah.Examples.DragTheLine
 {
