@@ -53,7 +53,7 @@ namespace CloudInvent.Cheetah.Examples.RoundedRectangle
             var resultGeometry = parametric.GetSolution(true);
 
             // 7. Checking that all geometric constraints are satisfied.
-            //    Actually, we have no need to check - if Evaluate returns true that everything is OK
+            //    Actually, we have no need to check - if Evaluate returns true than everything is OK
             if (!CheckResults(resultGeometry, entIdList, precision))
                 throw new Exception("Something goes wrong");
 
