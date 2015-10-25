@@ -64,7 +64,8 @@ namespace CloudInvent.Cheetah.Examples.DragTheLine
             // 10. Just to check again
             if (!IsPointOnLine(line1.End, line2))
                 throw new Exception("Something goes wrong");
-        }
+                
+        } // Main(...)
 
         static ICollection<CheetahCurve> EvaluationOnTheFirstApplicationOfConstraint(ICheetahSolver solver, CheetahDataSet dataSet)
         {
@@ -92,7 +93,8 @@ namespace CloudInvent.Cheetah.Examples.DragTheLine
             parametric.ClearSolver();
 
             return resultGeometry;
-        }
+            
+        } // EvaluationOnTheFirstApplicationOfConstraint(...)
 
         static ICollection<CheetahCurve> EvaluationOnDragginTheLine(ICheetahSolver solver, CheetahDataSet dataSet, CheetahLine2D draggingLine, CheetahPoint2D draggingPoint)
         {
@@ -111,7 +113,7 @@ namespace CloudInvent.Cheetah.Examples.DragTheLine
 
             // 3. Now we can drag. We don't need to recompile the model on each drag iteration,
             // because the model will be the same - only initial value (the drag point) will be changed
-            // We can simulate drag using loop
+            // We are simulating drag using this loop
             for (var i = 0; i < 100; i++)
             {
                 // 4. Our parametric object is initialized by dataSet object
@@ -154,7 +156,8 @@ namespace CloudInvent.Cheetah.Examples.DragTheLine
             parametric.ClearSolver();
 
             return resultGeometry;
-        }
+            
+        } // EvaluationOnDragginTheLine(...)
 
         static bool IsPointOnLine(CheetahPoint2D point, CheetahLine2D line)
         {
@@ -164,6 +167,9 @@ namespace CloudInvent.Cheetah.Examples.DragTheLine
             var y = k * point.X + b;
 
             return Math.Abs(y - point.Y) < CheetahParametricBasic.Settings.Precision;
-        }
-    }
-}
+            
+        } // IsPointOnLine(...)
+        
+    } // class Program4
+    
+} // namespace CloudInvent.Cheetah.Examples.DragTheLine
