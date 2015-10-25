@@ -58,7 +58,8 @@ namespace CloudInvent.Cheetah.Examples.RoundedRectangle
                 throw new Exception("Something goes wrong");
 
             GC.Collect();
-        }
+            
+        } // Main(...)
 
         private static void CreateGeometricModel(CheetahDataSet dataSet, ICollection<long> entIdList)
         {
@@ -141,7 +142,8 @@ namespace CloudInvent.Cheetah.Examples.RoundedRectangle
             dataSet.AddTangent(arc1, line4);
 
             // 4. Geometric model is created, but constraints are not satisfied yet!
-        }
+            
+        } // CreateGeometricModel(...)
 
         private static bool CheckResults(ICollection<CheetahCurve> resultGeometry, IReadOnlyList<long> entId, double precision)
         {
@@ -254,14 +256,16 @@ namespace CloudInvent.Cheetah.Examples.RoundedRectangle
                 return false;
 
             return true;
-        }
+            
+        } // CheckResults(...)
 
         private static bool IsDivisible(double dividend, double divider, double precision)
         {
             var quotient = Math.Round(dividend / divider);
 
             return Math.Abs(quotient * divider - dividend) < precision;
-        }
+            
+        } // IsDivisible(...)
 
     } // class Program3
 
