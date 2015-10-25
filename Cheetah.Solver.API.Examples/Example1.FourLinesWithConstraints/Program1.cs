@@ -4,8 +4,6 @@
 // Created:    29.09.2015                           Dmitry Ratner
 //-----------------------------------------------------------------------------------------
 
-
-
 namespace CloudInvent.Cheetah.Examples.FourLinesWithConstraints
 {
     using System;
@@ -105,7 +103,8 @@ namespace CloudInvent.Cheetah.Examples.FourLinesWithConstraints
             var quotient = Math.Round(dividend / divider);
 
             return Math.Abs(quotient * divider - dividend) < precision;
-        }
+            
+        } // IsDivisible(...)
 
     } // class Program1
 
