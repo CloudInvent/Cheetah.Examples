@@ -37,10 +37,10 @@ namespace CloudInvent.Cheetah.Examples.DragTheLine
             // 4. Creating solver object
             var solver = new SolverCpu10();
 
-            // 5. First we will evaluate the system the way as we just have added new constraint
+            // 5. First we evaluate the system the way as we just have added new constraint
             var resultGeometry = EvaluationOnTheFirstApplicationOfConstraint(solver, dataSet);
 
-            // 6. Apply the solution to data set
+            // 6. Applying the solution to data set
             var resultLine1 = (CheetahLine2D)resultGeometry.Single(x => x.Id == line1.Id);
             var resultLine2 = (CheetahLine2D)resultGeometry.Single(x => x.Id == line2.Id);
             
@@ -48,14 +48,14 @@ namespace CloudInvent.Cheetah.Examples.DragTheLine
             line2.FillData(resultLine2);
 
             // 7. Just to check, we don't need to do it all the time, because if parametric.
-            // Evaluate returned true then the problem is solved correctly
+            // If Evaluate returned true then the problem is solved correctly
             if (!IsPointOnLine(line1.End, line2))
                 throw new Exception("Something goes wrong");
 
-            // 8. Now we will try to simulate drag situation
+            // 8. Now we are simulating drag
             resultGeometry = EvaluationOnDragginTheLine(solver, dataSet, line1, line1.End);
 
-            // 9. Apply the solution to data set
+            // 9. Applying the solution to data set
             resultLine1 = (CheetahLine2D)resultGeometry.Single(x => x.Id == line1.Id);
             resultLine2 = (CheetahLine2D)resultGeometry.Single(x => x.Id == line2.Id);
             
@@ -140,13 +140,16 @@ namespace CloudInvent.Cheetah.Examples.DragTheLine
                     // in position that conflict with constraints/
                     // For example, while we rounding out the arc and can get negative radius, 
                     // or squeeze the line to zero length (and get negative length)
-                    // In our solver, if we are getting this situation - we are restoring the previous drag iteration solution.
+                    // In our solver, if we have such a situation - we restore the previous drag iteration solution.
                     throw new Exception("Something goes wrong");
+                    
+                // In this example we don't use results of EvaluateFast/
+                // In real life they may be retreived and used to update dragging lines on the screen
             }
 
             // 6. Regenerating constrained model (running solver)
-            // Now we click the mouse button to end the drag.
-            // We need to evaluate the system with exact precision
+            // Now we "click the mouse button" to end the drag.
+            // We need to evaluate the system with high precision (that's why we use Evaluate instead of EvaluateFast)
             // We can use last iteration solution as new initial value to evaluate the system much faster
             // (for this purpose we set recompile parameter to false)
             if (!parametric.Evaluate(false))
